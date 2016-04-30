@@ -116,7 +116,7 @@ sub refresh_token {
 	my $data_json = $self->_post(
         $self->paypal_auth_token_service_endpoint,
         $post_data,
-        { Authorization => "Basic: $encoded_header" }
+        { Authorization => "Basic $encoded_header" }
     );
 	my $data_hash = decode_json($data_json);
 
@@ -165,6 +165,7 @@ sub _post
     }
 
 	my $response = $self->_user_agent->request( $request );
+
 	if ( $response->is_error )
 	{
         $self->_log( "Post request failed, url : " . $url . " , parameters: " );

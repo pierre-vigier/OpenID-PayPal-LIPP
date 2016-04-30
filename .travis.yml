@@ -1,10 +1,10 @@
 language: perl
 
 perl:
-      - "5.10"
+    - "5.10"
 
 before_install:
-    - cpanm --notest Test::More
+    - cpanm --notest Test::More Test::MockModule
     - cpanm --notest --installdeps .
 
 script:

@@ -1,8 +1,6 @@
 use strict;
 use Test::More;
-use OpenID::PayPal::LIPP;
 
-# replace with the actual test
-ok 1;
+use_ok('OpenID::PayPal::LIPP');
 
 done_testing;
