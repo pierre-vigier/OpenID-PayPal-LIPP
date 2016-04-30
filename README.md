@@ -1,6 +1,6 @@
 # NAME
 
-OpenID::PayPal::LIPP - Login with PayPal
+OpenID::PayPal::LIPP - Login with PayPal 
 
 # SYNOPSIS
 
