@@ -3,7 +3,7 @@ package OpenID::PayPal::LIPP;
 use strict;
 use 5.008_005;
 use warnings;
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 use Carp;
 use JSON;

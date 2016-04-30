@@ -1,6 +1,8 @@
+[![Build Status](https://travis-ci.org/pierre-vigier/OpenID-PayPal-LIPP.svg?branch=master)](https://travis-ci.org/pierre-vigier/OpenID-PayPal-LIPP)
+
 # NAME
 
-OpenID::PayPal::LIPP - Login with PayPal 
+OpenID::PayPal::LIPP - Login with PayPal
 
 # SYNOPSIS
 

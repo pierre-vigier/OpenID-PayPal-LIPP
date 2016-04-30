@@ -51,6 +51,7 @@
       },
       "test" : {
          "requires" : {
+            "Test::MockModule" : "0",
             "Test::More" : "0.96"
          }
       }
@@ -67,6 +68,6 @@
          "web" : "https://github.com/pierre-vigier/OpenID-PayPal-LIPP"
       }
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }
 
